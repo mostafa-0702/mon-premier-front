@@ -48,6 +48,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'app-formation-front-m'
+          slot-name: 'staging'
           package: deploy-package
           clean: true
 
